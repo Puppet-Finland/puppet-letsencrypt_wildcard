@@ -1,0 +1,35 @@
+{
+  "name": "puppetfinland-letsencrypt_wildcard",
+  "version": "0.1.0",
+  "author": "Puppeteers Oy",
+  "summary": "Manage Amazon Route 53 DNS-based wildcard certificates",
+  "license": "BSD-2-Clause",
+  "source": "https://github.com/Puppet-Finland/puppet-letsencrypt_wildcard",
+  "dependencies": [
+    {
+      "name": "puppet/letsencrypt",
+      "version_requirement": ">= 8.0.0 < 10.0.0"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 6.0.0 < 9.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "20.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.21.0 < 8.0.0"
+    }
+  ],
+  "pdk-version": "2.5.0",
+  "template-url": "pdk-default#2.5.0",
+  "template-ref": "tags/2.5.0-0-g369d483"
+}
